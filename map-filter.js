@@ -35,3 +35,27 @@ const bigger = numbers.filter( x => x > 5);
 const isShare = numbers.find( x => x > 5);
 
 console.log(bigger);
+
+
+
+
+
+
+
+
+
+//practice
+
+const newNum = [10, 9, 3, 4, 6, 2];
+
+const square = newNum.map(function(x){
+    return x * x;
+});
+console.log(square);
+const cond = newNum.filter(function(x){
+    return x > 3;
+})
+console.log(cond);
+
+const find = newNum.find(x => x> 3);
+console.log(find);
